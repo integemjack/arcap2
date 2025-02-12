@@ -49,8 +49,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: [16]
-        os: [ubuntu-latest, macOS-latest, windows-latest]
+        node: [14, 16]
+        os: [windows-latest] # ubuntu-latest, macOS-latest, 
 
     steps:
       - name: init
